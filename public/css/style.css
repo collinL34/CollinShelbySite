@@ -1,0 +1,36 @@
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #2E2E2E;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2E2E2E;
+    }
+}
+
+.full-bg-img {
+    color: #fff;
+}
+
+.view {
+    background: url("https://images.unsplash.com/photo-1453856908826-6bbeda0f8490?dpr=2&auto=compress,format&fit=crop&w=376&h=565&q=80&cs=tinysrgb&crop=")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ui-view {
+    margin-top: 100px;
+}
