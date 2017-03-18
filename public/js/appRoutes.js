@@ -4,7 +4,7 @@ angular.module('appRoutes', ['ui.router'])
             .state({
                 name: 'home',
                 url: '/',
-                templateUrl: 'index.html',
+                templateUrl: 'views/home.html',
                 controller: 'HomeCtrl'
             })
 
