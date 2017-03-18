@@ -31,6 +31,10 @@ header,
     background-size: cover;
 }
 
-.ui-view {
-    margin-top: 100px;
+.ui {
+    height: 1000px;
+}
+
+.streak {
+    height: 300px;
 }
