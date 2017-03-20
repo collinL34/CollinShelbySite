@@ -34,25 +34,10 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-7">
-        <div id="map-container" class="z-depth-1-half map-container" style="height: 400px"></div>
-        <br>
-        <div class="row text-center">
-            <div class="col-md-4">
-                <a class="btn-floating btn-small mdb-color"><i class="fa fa-map-marker"></i></a>
-                <p class='purple-text'>New York, NY 10012</p>
-                <p class='purple-text'>United States</p>
-            </div>
-            <div class="col-md-4">
-                <a class="btn-floating btn-small mdb-color"><i class="fa fa-phone"></i></a>
-                <p class='purple-text'>+ (510) 965-7717</p>
-            </div>
-            <div class="col-md-4">
-                <a class="btn-floating btn-small mdb-color"><i class="fa fa-envelope"></i></a>
-                <p class='purple-text'>info@gmail.com</p>
-                <p class='purple-text'>sale@gmail.com</p>
-            </div>
-        </div>
-    </div>
 </section>
+</div>
+<div map-lazy-load="https://maps.google.com/maps/api/js" map-lazy-load-params="{{googleMapsUrl}}" class="googleMps">
+    <ng-map center="37.778515, -122.421129" zoom="15">
+        <marker position="37.778515, -122.421129"></marker>
+    </ng-map>
+</div>

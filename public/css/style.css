@@ -76,11 +76,10 @@ body {
     margin-bottom: 1rem;
 }
 
-.section .mb-4 {
-    
+.googleMps {
+    margin-right: -1000px;
+    width: 400px;
 }
-
-
 
 
 
