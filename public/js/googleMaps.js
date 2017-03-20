@@ -1,5 +1,5 @@
 function init_map() {
-    var var_location = new google.maps.LatLng(37.695165, -121.885987);
+    var var_location = new google.maps.LatLng(37.778515, -122.421129);
 
     var var_mapoptions = {
         center: var_location,
