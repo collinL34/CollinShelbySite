@@ -1,5 +1,4 @@
-const dotenv = require('dotenv');
-dotenv.load();
+require('dotenv').load();
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
@@ -20,3 +19,4 @@ console.log('Magic happens on PORT ' + port);
 require('./app/routes.js')(app);
 
 exports = module.exports = app;
+// console.log(process.env.GOOGLE);
