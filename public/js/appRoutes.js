@@ -22,4 +22,15 @@ angular.module('appRoutes', ['ui.router'])
             controller: 'PortfolioCtrl'
         })
 
+        .state({
+            name: 'autism',
+            url: 'http://www.google.com',
+            external: true
+        })
+
+        .state({
+            name: 'bearhugs',
+            url: 'bear-hugs.herokuapp.com'
+        })
+
     });
