@@ -1,44 +1,46 @@
-<section class="section mb-4">
-    <h1 class="section-heading">Contact v.1</h1>
-    <p class="section-description mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
-    <div class="col-md-5">
-        <div class="card">
-            <div class="card-block">
-                <div class="form-header mdb-color">
-                    <h3><i class="fa fa-envelope"></i> Write to us:</h3>
-                </div>
-                <p>We'll write rarely, but only the best content.</p>
-                <br>
-                <div class="md-form">
-                    <i class="fa fa-user prefix"></i>
-                    <input type="text" id="form3" class="form-control">
-                    <label for="form3">Your name</label>
-                </div>
-                <div class="md-form">
-                    <i class="fa fa-envelope prefix"></i>
-                    <input type="text" id="form2" class="form-control">
-                    <label for="form2">Your Email</label>
-                </div>
-                <div class="md-form">
-                    <i class="fa fa-tag prefix"></i>
-                    <input type="text" id="form32" class="form-control">
-                    <label for="form32">Subject</label>
-                </div>
-                <div class="md-form">
-                    <i class="fa fa-pencil prefix"></i>
-                    <textarea type="text" id="form8" class="md-textarea"></textarea>
-                    <label for="form8">Icon Prefix</label>
-                </div>
-                <div class="text-center">
-                    <button class="btn btn-ins">Submit</button>
+<div class='email'>
+    <section class="section mb-4">
+        <h1 class="section-heading">Contact v.1</h1>
+        <p class="section-description mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-block">
+                    <div class="form-header mdb-color">
+                        <h3><i class="fa fa-envelope"></i> Write to us:</h3>
+                    </div>
+                    <p>We'll write rarely, but only the best content.</p>
+                    <br>
+                    <div class="md-form">
+                        <i class="fa fa-user prefix"></i>
+                        <input type="text" id="form3" class="form-control">
+                        <label for="form3">Your name</label>
+                    </div>
+                    <div class="md-form">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form2" class="form-control">
+                        <label for="form2">Your Email</label>
+                    </div>
+                    <div class="md-form">
+                        <i class="fa fa-tag prefix"></i>
+                        <input type="text" id="form32" class="form-control">
+                        <label for="form32">Subject</label>
+                    </div>
+                    <div class="md-form">
+                        <i class="fa fa-pencil prefix"></i>
+                        <textarea type="text" id="form8" class="md-textarea"></textarea>
+                        <label for="form8">Icon Prefix</label>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-ins">Submit</button>
+                    </div>
                 </div>
             </div>
+            <hr>
         </div>
-</section>
-</div>
-
-<div map-lazy-load="https://maps.google.com/maps/api/js" map-lazy-load-params="{{googleMapsUrl}}">
-    <ng-map center="37.778515, -122.421129" zoom="13">
-        <marker position="37.778515, -122.421129"></marker>
-    </ng-map>
+    </section>
+    <div map-lazy-load="https://maps.google.com/maps/api/js" map-lazy-load-params="{{googleMapsUrl}}">
+        <ng-map center="37.778515, -122.421129" zoom="13" class='googleMaps'>
+            <marker position="37.778515, -122.421129"></marker>
+        </ng-map>
+    </div>
 </div>

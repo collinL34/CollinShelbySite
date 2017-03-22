@@ -76,13 +76,16 @@ body {
     margin-bottom: 1rem;
 }
 
-.googleMps {
-    margin-right: -1000px;
-    width: 400px;
+.googleMaps {
+    margin-left: 700px;
+    margin-top: -500px;
+    height: 400px;
+    width: 800px;
 }
 
-
-
+.email {
+    height: 800px;
+}
 
 
 
