@@ -1,4 +1,4 @@
-angular.module('ContactCtrl', ['Angular.config'])
+angular.module('ContactCtrl', ['ngMap', 'Angular.config'])
     .controller('ContactCtrl', function($scope, NgMap, GOOGLE) {
         $scope.googleMapsUrl = "https://maps.googleapis.com/maps/api/js?key=" + GOOGLE;
 

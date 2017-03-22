@@ -31,13 +31,13 @@
                 </div>
                 <div class="text-center">
                     <button class="btn btn-ins">Submit</button>
+                    <p>{{googleMapsUrl}}</p>
                 </div>
             </div>
         </div>
 </section>
 </div>
-<div map-lazy-load="https://maps.google.com/maps/api/js" map-lazy-load-params="{{googleMapsUrl}}">
-    <ng-map center="37.778515, -122.421129" zoom="13">
-        <marker position="37.778515, -122.421129"></marker>
-    </ng-map>
+<div map-lazy-load="https://maps.google.com/maps/api/js">
+    <map center="41,-87" zoom="3">
+    </map>
 </div>
