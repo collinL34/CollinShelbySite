@@ -78,13 +78,13 @@ body {
 
 .googleMaps {
     margin-left: 700px;
-    margin-top: -500px;
-    height: 400px;
+    margin-top: -440px;
+    height: 420px;
     width: 700px;
 }
 
 .email {
-    height: 800px;
+    height: 600px;
 }
 
 .avatar {
@@ -98,7 +98,9 @@ body {
     text-align: center;
 }
 
-
+.card-block {
+    margin-bottom: 30px;
+}
 
 
 
