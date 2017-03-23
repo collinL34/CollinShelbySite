@@ -83,7 +83,7 @@ body {
 .avatar {
     height: 200px;
     width: 200px;
-    margin-left: 610px;
+    margin-left: 450px;
     margin-bottom: 150px;
 }
 
@@ -95,13 +95,9 @@ body {
     margin-bottom: 30px;
 }
 
-.portfolio {
-    text-align: center;
+.contact {
+    margin-left: 130px;
 }
-
-
-
-
 
 
 
