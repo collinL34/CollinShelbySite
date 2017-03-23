@@ -17,6 +17,7 @@
     "gulp": "^3.9.1",
     "gulp-ng-config": "^1.4.0",
     "method-override": "^2.3.7",
-    "mongoose": "^4.8.3"
+    "mongoose": "^4.8.3",
+    "ngmap": "^1.17.7"
   }
 }
