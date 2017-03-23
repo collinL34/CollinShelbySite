@@ -7,4 +7,8 @@ angular.module('PortfolioCtrl', [])
         $scope.bearHugs = function() {
             window.location = 'http://bear-hug.herokuapp.com/';
         };
+
+        $scope.magic = function() {
+          window.location = 'https://board-game-tracker.herokuapp.com/';
+        };
     })

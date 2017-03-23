@@ -65,6 +65,16 @@ body {
     background-size: cover;
 }
 
+
+.parallax-magic {
+    background-image: url("https://lh3.googleusercontent.com/RrjXGdll0B05QDSXsA6of24l-Us79D4gdAl3d3JYaNXWmREnubiRuDJ4YpzE8sh71xfLxHxonIwpO-6HUGff-8u9BQdJE557Q9_Ob9XJwu_lMYTBEP1ZfYBKeIHoMWMsCsANIBY-svp6O5w60HC41UPR8mjklqZADphyw9iVKJ7Jsd72duGzTzHvW2aqRk0PDtnF71LUaKidLgkbC72fIrmcGrAZYST5ZO_xDS4Ur1MuIuOYerxYGKjvLYgdjgk-X4lMJ9yXZJU-ol9GFCQhnaYkjJ4m1bAFY7KorcvT53XCjD0gGdBN3chxEhQRtDuM5mH7prq4jbXCNwtA53YlAaj2vD8ajpvbpvjdts9ATRYtHmY0xnk5TT5OBlS8EuUsbR46ak4W0pJ7rw5jvE1HTTk8v6Jr0U6Ejhj6KmdsHM1-PSoO55q-9j6yBPlFlH5B334hjJqrgTjpDKvS42bkHTZz8tkMJNrD7WXa7pwzlrR_ckvs2JFSEv9EZ5iejtCiP5BCMYCVo6cPvAYj1CZ7AaRd6aM51B87PzyXUecI7m5Oi_K-peXNuQaUj-DLVvILb9Oqv5_0m_nlptZC6-gmcXymFGthDOEAkdr5EMX3Y-SFG-yhBQhK=w2270-h1442-no");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
