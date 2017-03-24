@@ -10,62 +10,41 @@
         <div class="divider-new">
             <h1 class="blue-text section-heading">Contact Me!</h1>
         </div>
-        <!--Section sescription-->
         <p class="blue-text section-description mb-5">If you wish to contact me please do here is an email form to message me!</p>
         <div class="row contact">
-            <!--First column-->
             <div class="col-md-8">
                 <form>
-                    <!--First row-->
                     <div class="row">
-                        <!--First column-->
                         <div class="col-md-6">
                             <div class="md-form">
                                 <div class="md-form">
-                                    <input type="text" id="form41" class="form-control">
-                                    <label for="form41" class="">Your name</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Second column-->
-                        <div class="col-md-6">
-                            <div class="md-form">
-                                <div class="md-form">
-                                    <input type="text" id="form52" class="form-control">
+                                    <input type="text" id="form52" class="form-control" ng-model='sender'>
                                     <label for="form52" class="">Your email</label>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--/.First row-->
-                    <!--Second row-->
                     <div class="row">
                         <div class="col-md-12">
                             <div class="md-form">
-                                <input type="text" id="form51" class="form-control">
+                                <input type="text" id="form51" class="form-control" ng-model='subject'>
                                 <label for="form51" class="">Subject</label>
                             </div>
                         </div>
                     </div>
-                    <!--/Second row-->
-                    <!--Third row-->
                     <div class="row">
-                        <!--First column-->
                         <div class="col-md-12">
                             <div class="md-form">
-                                <textarea type="text" id="form76" class="md-textarea"></textarea>
+                                <textarea type="text" id="form76" class="md-textarea" ng-model='message'></textarea>
                                 <label for="form76">Your message</label>
                             </div>
                         </div>
                     </div>
-                    <!--/.Third row-->
                 </form>
                 <div class="center-on-small-only">
-                    <a class="btn btn-ins">Send</a>
+                    <button class='btn btn-primary' ng-click="sendEmail()">Send!!</button>
                 </div>
             </div>
-            <!--.First column-->
-            <!--Second column-->
             <div class="col-md-4">
                 <ul class="contact-icons">
                     <li><i class="fa fa-map-marker fa-2x blue-text"></i>
@@ -79,8 +58,6 @@
                     </li>
                 </ul>
             </div>
-            <!--.Second column-->
         </div>
     </section>
-    <!--/Section: Contact v.2-->
 </div>
