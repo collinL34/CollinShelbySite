@@ -13,6 +13,7 @@ angular.module('ContactCtrl', ['Angular.config'])
                     },
                     function(response) {
                         console.log(response, 'error');
+                        $scope.email = {};
                     });
         };
     })
