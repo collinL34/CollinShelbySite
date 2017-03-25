@@ -3,17 +3,17 @@ angular.module('ContactCtrl', ['Angular.config'])
         $scope.email = {};
 
         $scope.sendEmail = function() {
-            $scope.email = { subject: $scope.subject, sender: $scope.sender, message: $scope.message };
+            $scope.email = { name: $scope.name, subject: $scope.subject, sender: $scope.sender, message: $scope.message };
 
             console.log($scope.email);
             $http.post('/contact-email', $scope.email)
                 .then(function(data) {
                         console.log(data, 'success');
                         $scope.email = {};
+                        $route.reload();
                     },
                     function(response) {
                         console.log(response, 'error');
-                        $scope.email = {};
                     });
         };
     })

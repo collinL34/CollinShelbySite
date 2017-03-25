@@ -23,19 +23,21 @@ module.exports = function(app) {
     });
 
     app.post('/contact-email', function(req, res) {
-        let mailOptions = {
-            to: 'collinlshelby@gmail.com',
-            from: 'Fred Foo 👻 <rawnchychero@comcast.net>',
-            sender: req.body.sender,
-            subject: req.body.subject,
-            text: req.body.message
-        };
 
-        transporter.sendMail(mailOptions, (error, info) => {
+        transporter.sendMail({
+            from: req.body.sender + " <s.shivasurya@gmail.com>",
+            to: "Collin Shelby <collinlshelby@gmail.com>",
+            subject: req.body.name + ', ' + req.body.subject,
+            text: req.body.message
+        }, function(error, response) {
             if (error) {
-                return console.log(error);
+                console.log(error);
+                window.location.reload();
+            } else {
+                console.log("Mail sent: " + response.message);
+                window.location.reload();
             }
-            console.log('Message %s sent: %s', info.messageId, info.response);
         });
+
     });
 };
