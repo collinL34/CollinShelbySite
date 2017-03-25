@@ -93,8 +93,8 @@ body {
 .avatar {
     height: 200px;
     width: 200px;
-    /*margin-left: 450px;*/
-    /*margin-bottom: 150px;*/
+    margin-left: 450px;
+    margin-bottom: 150px;
 }
 
 .section {
