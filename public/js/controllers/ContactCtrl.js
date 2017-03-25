@@ -10,7 +10,6 @@ angular.module('ContactCtrl', ['Angular.config'])
                 .then(function(data) {
                         console.log(data, 'success');
                         $scope.email = {};
-                        $route.reload();
                     },
                     function(response) {
                         console.log(response, 'error');

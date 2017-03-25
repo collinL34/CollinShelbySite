@@ -32,10 +32,8 @@ module.exports = function(app) {
         }, function(error, response) {
             if (error) {
                 console.log(error);
-                window.location.reload();
             } else {
-                console.log("Mail sent: " + response.message);
-                window.location.reload();
+                console.log("Mail sent: " + req.body.message);
             }
         });
 
