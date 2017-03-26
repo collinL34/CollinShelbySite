@@ -13,4 +13,5 @@ angular.module('HomeCtrl', [])
         $scope.linkedin = function() {
           window.location = 'https://www.linkedin.com/in/collin-shelby/';
         };
+
     })
