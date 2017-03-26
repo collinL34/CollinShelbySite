@@ -1,5 +1,5 @@
 angular.module('appRoutes', ['ui.router'])
-    .config(function($stateProvider) {
+    .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state({
                 name: 'home',
@@ -32,5 +32,7 @@ angular.module('appRoutes', ['ui.router'])
             name: 'bearhugs',
             url: 'bear-hugs.herokuapp.com'
         })
+
+        $urlRouterProvider.when('', '/');
 
     });
