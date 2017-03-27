@@ -9,6 +9,22 @@ angular.module('PortfolioCtrl', [])
         };
 
         $scope.magic = function() {
-          window.location = 'https://board-game-tracker.herokuapp.com/';
+            window.location = 'https://board-game-tracker.herokuapp.com/';
         };
+
+        $scope.collLink = function() {
+            window.location = 'https://www.linkedin.com/in/collin-shelby/';
+        };
+
+        $scope.chrisLink = function() {
+            window.location = 'https://www.linkedin.com/in/christian-acuna/';
+        };
+        $scope.johnLink = function() {
+            window.location = 'https://www.linkedin.com/in/john-winslow/';
+        };
+
+        $scope.branLink = function() {
+          window.location = 'https://www.linkedin.com/in/bhuang111/';
+        };
+
     })
