@@ -1,4 +1,4 @@
-angular.module('TestDir', [])
+angular.module('profileDir', [])
     .directive('testimonial', function() {
         return {
             restrict: 'E',

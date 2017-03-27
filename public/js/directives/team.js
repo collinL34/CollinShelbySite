@@ -1,7 +1,7 @@
 angular.module('teamDir', [])
     .directive('team', function() {
         return {
-            restrcit: 'E',
+            restrict: 'E',
             templateUrl: 'views/team.html',
             controller: 'PortfolioCtrl'
         };
