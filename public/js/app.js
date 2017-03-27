@@ -1,1 +1,1 @@
-angular.module('Angular', ['appRoutes','HomeCtrl', 'ContactCtrl', 'PortfolioCtrl', 'navBarDir', 'TestDir']);
+angular.module('Angular', ['appRoutes','HomeCtrl', 'ContactCtrl', 'PortfolioCtrl', 'navBarDir', 'TestDir', 'teamDir']);
