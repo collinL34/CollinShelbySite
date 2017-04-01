@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     <script type="text/javascript" src='libs/angular/angular.min.js'></script>
 
     <script type="text/javascript" src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
@@ -36,9 +38,13 @@
 
     <ui-view></ui-view>
 
+    <script>
+        new WOW().init();
+    </script>
     <script type="text/javascript" src='libs/jquery/dist/jquery.min.js'></script>
-    <script type="text/javascript" src='libs/bootstrap/dist/js/bootstrap.js'></script>
+    <script type="text/javascript" src='libs/bootstrap/dist/js/bootstrap.min.js'></script>
     <script type="text/javascript" src='libs/MDBootstrap/js/mdb.js'></script>
+    <script type="text/javascript" src='libs/MDBootstrap/js/tether.min.js'></script>
 </body>
 
 </html>
