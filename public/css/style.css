@@ -24,7 +24,7 @@ header,
 }
 
 .view {
-    background: url("https://images.unsplash.com/photo-1444012830796-83db7e1db0d3?dpr=1.8181818723678589&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=")no-repeat center center fixed;
+    background: url("images/background.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +48,7 @@ body {
 }
 
 .parallax {
-    background-image: url("https://lh3.googleusercontent.com/HVy14nZv9giXx3TWt3xdCfgy8ZHkzJ5bliN7tjIdZ5LCIBlcehIM-eH813gKDuugdc8DMauO7b1vUEuG5x21jaN9CX5izI0a1zxc34uIQRRwy6rYOe80N53G9GVMO95zP4ggX8MvDsfLZyIHpsASag_jG_GjHBfsuXlYf_B4Agjvl1WwSdjw6StculwF3FPiKf9EC4IkFs-JEx4kqoSipwgM0CM8JiadKAkSi2xRjSGqvG0b5Ckk6lzVzWxOu4y9UwxOpque9knWQB7Ji6ZzxpQQE0r9U2RzW1_Vtx3AklR6pV28wtpcyHtUuxvs4Q4SwH4efY_AJhdNEURI6Bz7qIR6zQPUC9E9rxvtRR0r1BGHip5LgpV5qc4joIK34MirmTqH2U-CX5BYkmS5rHM-vcT16XBnlssAZAWgiK7CXjiPG5baXvcYFZovYfGFyuP-wQSUe022EdC0cUXTeDqJy2hmvItJ5XHvAq8BW0C1pKTcqc1YkKpv262UL5IxqcVfwUDqUcN0Iuq-AsOizGhB05kIMlFwgzZsVN1OaGE72uxEKf1dJJ1E4dmZLJoUWjnHHHvMx6kssIM2j2B_N_sBmxxTQVta2ty8YLewZEKKZAzoyzo6kwzj=w2412-h1438-no");
+    background-image: url("images/bear.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -57,7 +57,7 @@ body {
 }
 
 .parallax-aut {
-    background-image: url("https://lh3.googleusercontent.com/C7CQOseXvzMRCtAZc-YSpERtzTHpzenYSUGOXCK9X7kgDAXVGOC982LBnukaTLjB3uaFCoTBloocC6Rx-sP1jePlImm8J0IhbK7w8Y46PdfX9dUHgD_NplpkByeY_A68aMMZBEbRqnpV3cgLSKun7hd_HqxYRh8rMJsqRF68N-m5TnafPmr7S4QPuFI7bWIBbYPoClSDsbuWc_IJZP2CUm_R96sczN7nzmBHat8pkdt8hzrpP7NVx6q1LW3gTybaF1ef8dRk47-3BDh2wQH9zuMg8b68tT8v3flM5kmcKUp4Zrs7oUXm1wfjUELFLqKo5apEYxYUEEUpFJvjWn3PFiQt7p_q9F6yDa6xv-zxR3_r4DMXBc8wIw8kHK888S__knrCKl6AOQId4k7hSivhKcDoX-CNbZvh6qjY_bLg_hOaA9wG3aMUBk2Lsn30MRao5a8hpecjIzxdveLnsQ2k-Y9M3b14KxILOfrgo0sH70nIIrnyzhK2JvameGEAzol2Bq0gl0ZHywmz5QkMZncdWTXw3gdc7TBf3iKB9PMyHd0KePrG2xyaZg8aRLeEo8Qh90xrNKgfnWcx4HcRQHb_jL95YH8bcTbTK5ExwVLOYajZoTChpbvw=w2730-h1434-no");
+    background-image: url("images/autism.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -66,7 +66,7 @@ body {
 }
 
 .parallax-magic {
-    background-image: url("https://lh3.googleusercontent.com/9FIyANSag3Ceecruij3jzp_sPHxCahrN4JIyB9kKdcu2ASOxqcKiUXxoX6BZQ5z2GWJIq0h4Vzh3qgvyIHeuZFcrHI-OS6h53BVdWUFWzklvqVtXUcJ49BV9slLNsSS1YHPTj9ePXygUunIxYFD_LrrWykjKMpgYpcosadNEEfQCubE-7Oe5SF66TSc_lEu-1yrGNKmnFe64hUj_U4VvtOwX8C1kdBKBtsr2EdyWhZpH646Pg-4i_5clvPFF96l6xxsudwrLFrr-tidkbOZ0B9J7ssfsvNpwP2IuvbXtmNu0LxRdseS0z0brzr9yuW7APWetEFF6dNebfmFNGa7EiU4fz4rjguDmC9urpDiJD3PrMYtziCiZiParMzPXlfm6t6TLX2_ZVNgwPf5A3r7US5l0LPW0sJZv7mxzFzJJXP3wgBrD_KQElErJt_7VztbeYhCygYY6K86dzgQ4ZHkkRS7adTuSQrQcCF1IHOP2HpWuW3kpgtFE-Z-dd9RNXxHzG_9svQJUwQGjd2V77pgHSTV5gAdaNT8o6ir92YIV3sEBGQ4pWg08Qo3lmmbDKnPaqBswRD9Q2oE8-rw5mCrBtlQdero6XocvoFCw-RX8kC6eaLj4LsWf=w2270-h1442-no");
+    background-image: url("images/boardgame.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
