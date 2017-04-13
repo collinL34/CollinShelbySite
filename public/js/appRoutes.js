@@ -23,6 +23,13 @@ angular.module('appRoutes', ['ui.router'])
         })
 
         .state({
+            name: 'information',
+            url: '/information',
+            templateUrl: 'views/information.html',
+            controller: 'InfoCtrl'
+        })
+        
+        .state({
             name: 'autism',
             url: 'http://www.google.com',
             external: true
@@ -32,6 +39,7 @@ angular.module('appRoutes', ['ui.router'])
             name: 'bearhugs',
             url: 'bear-hugs.herokuapp.com'
         })
+
 
         $urlRouterProvider.when('', '/');
 

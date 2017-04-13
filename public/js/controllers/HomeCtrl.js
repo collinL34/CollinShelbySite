@@ -17,4 +17,4 @@ angular.module('HomeCtrl', [])
             window.location = 'https://www.visualcv.com/collin-shelby';
         };
 
-    })
+    });

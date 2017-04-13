@@ -127,7 +127,10 @@ body {
     width: 200px;
 }
 
-
+.info {
+    margin-top: 60px;
+    text-align: center;
+}
 
 
 
