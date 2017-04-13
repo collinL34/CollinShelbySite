@@ -6,11 +6,15 @@ angular.module('HomeCtrl', [])
         };
 
         $scope.github = function() {
-          window.location = 'https://github.com/collinL34/';
+            window.location = 'https://github.com/collinL34/';
         };
 
         $scope.linkedin = function() {
-          window.location = 'https://www.linkedin.com/in/collin-shelby/';
+            window.location = 'https://www.linkedin.com/in/collin-shelby/';
+        };
+
+        $scope.resume = function() {
+            window.location = 'https://www.visualcv.com/collin-shelby';
         };
 
     })
