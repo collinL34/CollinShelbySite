@@ -1,5 +1,5 @@
 angular.module('profileDir', [])
-    .directive('testimonial', function() {
+    .directive('profile', function() {
         return {
             restrict: 'E',
             templateUrl: 'views/profile.html',
