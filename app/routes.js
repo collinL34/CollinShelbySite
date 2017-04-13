@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 let transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: "Outlook365",
     auth: {
         user: process.env.GOOGLE,
         pass: process.env.GOOGLE_PASS
