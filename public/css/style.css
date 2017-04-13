@@ -89,11 +89,10 @@ body {
     height: 600px;
 }
 
-.avatar {
-    height: 200px;
-    width: 200px;
-    /*margin-left: 450px;*/
-    /*margin-bottom: 150px;*/
+.avatar img {
+    height: 350px;
+    width: 300px;
+    margin-left: 400px;
 }
 
 .section {
