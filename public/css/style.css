@@ -1,0 +1,142 @@
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #2E2E2E;
+}
+
+@media only screen and (max-wiydth: 768px) {
+    .navbar {
+        background-color: #2E2E2E;
+    }
+}
+
+.full-bg-img {
+    color: #fff;
+}
+
+.view {
+    background: url("images/background.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ui {
+    height: 1000px;
+}
+
+.streak {
+    height: 300px;
+}
+
+body {
+    background-color: #2E2E2E;
+}
+
+.somethings {
+    height: 300px;
+}
+
+.parallax {
+    background-image: url("images/bear.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-aut {
+    background-image: url("images/autism.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-magic {
+    background-image: url("images/boardgame.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+#contact .fa {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.email {
+    height: 600px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+}
+
+.section {
+    text-align: center;
+}
+
+.card-block {
+    margin-bottom: 30px;
+}
+
+.contact {
+    margin-left: 130px;
+}
+
+.portfolio {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.career {
+    margin-top: -50px;
+}
+
+.team .avatar {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.my-image {
+    height: 200px;
+    width: 200px;
+}
+
+.info {
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

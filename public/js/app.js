@@ -1,0 +1,1 @@
+angular.module('Angular', ['appRoutes','HomeCtrl', 'ContactCtrl', 'PortfolioCtrl', 'InfoCtrl', 'navBarDir', 'profileDir', 'teamDir']);
