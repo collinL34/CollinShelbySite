@@ -1,5 +1,5 @@
 angular.module('appRoutes', ['ui.router'])
-    .config(function($stateProvider, $urlRouterProvider) {
+    .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
         $stateProvider
             .state({
                 name: 'home',
@@ -28,7 +28,7 @@ angular.module('appRoutes', ['ui.router'])
             templateUrl: 'views/information.html',
             controller: 'InfoCtrl'
         })
-        
+
         .state({
             name: 'autism',
             url: 'http://www.google.com',
@@ -40,7 +40,6 @@ angular.module('appRoutes', ['ui.router'])
             url: 'bear-hugs.herokuapp.com'
         })
 
-
-        $urlRouterProvider.when('', '/');
-
+        $locationProvider.html5Mode(true);
+        
     });
